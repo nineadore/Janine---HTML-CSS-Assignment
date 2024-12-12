@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-image: url(nature.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    font-family: "Source Sans 3";
+    background-color: #d7d4d49c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px grey;
+    text-align: center;
+}
+
+.cover-photo img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    margin-top: -100px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #f1f1f1;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333333;
+}
+
+.profile-info .title {
+    font-size: 18px;
+    color: #555555;
+    margin: 5px 0;
+}
+
+.profile-info .bio {
+    font-size: 18px;
+    color: #777777;
+    margin-top: 18px;
+}
+
+.social {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 1px;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social a {
+    display: inline-block;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.social img {
+    width: 100%;
+    height: 100%;
+}
